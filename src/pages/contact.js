@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './../components/header.js'
 import Nav from './../components/nav';
+import FullImageHeader from '../components/fullimageheader';
+import headerImg from '../images/headerimg2.jpg';
 import { containerStyles } from '../styles/styles';
 
 export default () => (
