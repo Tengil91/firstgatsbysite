@@ -4,7 +4,9 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
+  "main": "blogbar.js",
   "scripts": {
+    "blogbar": "node .",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -13,7 +15,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "gatsby": "^2.13.73",
+    "promise": "^8.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
